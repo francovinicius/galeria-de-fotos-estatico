@@ -1,5 +1,5 @@
 {
-  "name": "galeria-de-fotos-react",
+  "name": "alura-space",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.57.1"
+    "sass": "^1.54.9"
   }
 }

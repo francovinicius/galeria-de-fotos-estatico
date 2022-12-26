@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './Tags.module.scss'
 
 export default function Tags() {
   return (
-    <div>
-      <p>Filtre por tags</p>
-      <ul>
+    <div className={styles.tags}>
+      <p>Filtre por tags:</p>
+      <ul className={styles.tags__lista}>
         <li>Estrelas</li>
         <li>Galáxias</li>
         <li>Lua</li>

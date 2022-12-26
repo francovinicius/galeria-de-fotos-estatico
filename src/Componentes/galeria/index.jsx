@@ -1,9 +1,6 @@
 import React from "react";
 import Tags from "../Tags";
-
 import styles from "./Galeria.module.scss";
-
-//importando as fotos do array
 import fotos from "./fotos.json";
 import Cards from "./Cards";
 
