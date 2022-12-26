@@ -1,9 +1,9 @@
 //importanto as imagens relacionadas ao cabecalho
-import logo from './logo.png'
-import search from './search.png'
+import logo from './logo.png';
+import search from './search.png';
 
 //importando estilos
-import styles from './Cabecalho.module.scss'
+import styles from './Cabecalho.module.scss';
 
 export default function Cabecalho(){
     return (

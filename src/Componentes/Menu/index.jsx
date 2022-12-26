@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 //importando os icones
-import home from '../../assets/icones/home-ativo.png'
-import maisCurtidas from '../../assets/icones/mais-curtidas-inativo.png'
-import maisVistas from '../../assets/icones/mais-vistas-inativo.png'
-import novas from '../../assets/icones/novas-inativo.png'
-import surpreendaMe from '../../assets/icones/surpreenda-me-inativo.png'
+import home from '../../assets/icones/home-ativo.png';
+import maisCurtidas from '../../assets/icones/mais-curtidas-inativo.png';
+import maisVistas from '../../assets/icones/mais-vistas-inativo.png';
+import novas from '../../assets/icones/novas-inativo.png';
+import surpreendaMe from '../../assets/icones/surpreenda-me-inativo.png';
 
 //importando estilos
 import styles from './Menu.module.scss'
