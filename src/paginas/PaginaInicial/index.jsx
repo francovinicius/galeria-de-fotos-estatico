@@ -7,8 +7,7 @@ import styles from './PaginaInicial.module.scss';
 //import de componentes
 import Cabecalho from "../../Componentes/Cabecalho";
 import Menu from "../../Componentes/Menu";
-import Galeria from '../../Componentes/galeria';
-
+import Galeria from '../../Componentes/Galeria';
 
 
 export default function PaginaInicial() {
