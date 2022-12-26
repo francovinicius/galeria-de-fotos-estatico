@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
 }
 
+
+//barra de navegação
 body::-webkit-scrollbar {
   width: 3px;
 }
@@ -17,4 +19,20 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #154580;
   border-radius: 20px;
+}
+
+@font-face {
+  font-family: "GandhiSansRegular" ;
+  src: local("GandhiSansRegular"),
+  url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
+  font-weight: 500;
+  display: swap;
+}
+
+@font-face {
+  font-family: "GandhiSansBold" ;
+  src: local("GandhiSansBold"),
+  url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
+  font-weight: 700;
+  display: swap;
 }
