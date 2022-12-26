@@ -30,7 +30,6 @@ export default function Rodape() {
           <img src={instagram} alt="ícone do instagram" />
         </a>
       </div>
-      <p>Desenvolvido por Alura</p>
     </footer>
   );
 }
