@@ -7,6 +7,7 @@ import styles from './PaginaInicial.module.scss';
 //import de componentes
 import Cabecalho from "../../Componentes/Cabecalho";
 import Menu from "../../Componentes/Menu";
+import Galeria from '../../Componentes/galeria';
 
 
 
@@ -23,6 +24,10 @@ export default function PaginaInicial() {
                         <img src={banner} alt="A imagem da Terra vista do espaço" />
                     </div>
                 </section>
+
+                <div>
+                    <Galeria />
+                </div>
             </main>
             
         </>
