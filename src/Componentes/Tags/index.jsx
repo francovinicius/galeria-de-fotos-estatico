@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Tags.module.scss";
-import fotos from "../Galeria/fotos.json"
+import fotos from "../Galeria/fotos.json";
 
 export default function Tags({ tags, filtraFotos, setItens }) {
   return (
@@ -14,7 +14,7 @@ export default function Tags({ tags, filtraFotos, setItens }) {
             </li>
           );
         })}
-        <li onClick={()=> setItens(fotos)} >Todas</li>
+        <li onClick={() => setItens(fotos)}>Todas</li>
       </ul>
     </div>
   );
